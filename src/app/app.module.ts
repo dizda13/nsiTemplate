@@ -1,3 +1,4 @@
+import { CustomersDetailsComponent } from './customers/CustomerDetails/CustomersDetailsComponent';
 import { NgModule, ApplicationRef } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
@@ -55,7 +56,8 @@ type StoreType = {
     FlotCmp,
     NoContent,
     XLarge,
-    FontAwesomeDirective
+    FontAwesomeDirective,
+    CustomersDetailsComponent
   ],
   imports: [ // import Angular's modules
     BrowserModule,

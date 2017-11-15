@@ -6,6 +6,7 @@ import { About } from './about';
 import { NoContent } from './no-content';
 
 import { DataResolver } from './app.resolver';
+import { CustomersDetailsComponent } from "app/customers/CustomerDetails/CustomersDetailsComponent";
 
 
 export const ROUTES: Routes = [
@@ -15,5 +16,6 @@ export const ROUTES: Routes = [
   {
     path: 'detail', loadChildren: () => System.import('./+detail')
   },
+  { path: 'customers',    component: CustomersDetailsComponent},
   { path: '**',    component: NoContent },
 ];
