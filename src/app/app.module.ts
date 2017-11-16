@@ -1,3 +1,4 @@
+import { CustomersListComponent } from './customers/CustomersList/customersListComponent';
 import { CustomersDetailsComponent } from './customers/CustomerDetails/CustomersDetailsComponent';
 import { NgModule, ApplicationRef } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -57,7 +58,8 @@ type StoreType = {
     NoContent,
     XLarge,
     FontAwesomeDirective,
-    CustomersDetailsComponent
+    CustomersDetailsComponent,
+    CustomersListComponent
   ],
   imports: [ // import Angular's modules
     BrowserModule,
